@@ -1,7 +1,7 @@
 # CVTeam_CNN_classification_feature_extraction
 This repository is the implementation of CNN for classification and feature extraction in pytorch. Pytorch pretrained models have been used which are explained [here](https://pytorch.org/docs/stable/torchvision/models.html).
 
-This code supports data parallelism and multipl GPU. Also, you can select to load pretrained weights (trained on ImageNet dataset) or train from scratch using random weights. 
+This code supports data parallelism and multipl GPU, early stopping, and class weight. Also, you can select to load pretrained weights (trained on ImageNet dataset) or train from scratch using random weights. 
 
 Pretrained model structure has 1000 nodes in the last layer. This code modifies the last layer of all models to be campatible with every dataset. 
 
