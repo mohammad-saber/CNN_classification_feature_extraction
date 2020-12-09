@@ -1,4 +1,4 @@
-# CVTeam_CNN_classification_feature_extraction
+# CNN_classification_feature_extraction
 This repository is the implementation of CNN for classification and feature extraction in pytorch. Pytorch pretrained models have been used which are explained [here](https://pytorch.org/docs/stable/torchvision/models.html).
 
 This code supports data parallelism and multipl GPU, early stopping, and class weight. Also, you can select to load pretrained weights (trained on ImageNet dataset) or train from scratch using random weights. 
@@ -24,8 +24,8 @@ Following models can be used:
 ## Install
 
 ```
-git clone CVTeam_CNN_classification_feature_extraction
-cd CVTeam_CNN_classification_feature_extraction
+git clone CNN_classification_feature_extraction
+cd CNN_classification_feature_extraction
 pip install -r requirements.txt
 ```
 If conditions are not met, please install pytorch based on the instructions in [pytorch documentation](https://pytorch.org/).
